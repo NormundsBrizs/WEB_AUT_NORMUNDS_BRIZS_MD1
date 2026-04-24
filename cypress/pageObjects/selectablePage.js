@@ -5,7 +5,11 @@ export class SelectablePage extends BasePage {
         return '/selectable';
     }
 
-    static get selectableButton() {
-        return cy.get('#selectableButton');
+    static get gridButton() {
+        return cy.get('#demo-tab-grid');
+    }
+
+    static gridItem(label) {
+        return cy.get('.list-group-item').contains(label);
     }
 }
