@@ -6,6 +6,8 @@ describe('template spec', () => {
       SelectablePage.visit();
     });
 
-    
+    it.only('Input information and validate', () => {
+          
+    })
   })
 })
