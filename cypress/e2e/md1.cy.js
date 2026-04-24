@@ -1,4 +1,4 @@
-import { SelectablePage } from "../pageObjects/selectablePage";
+const { SelectablePage } = require("../pageObjects/selectablePage");
 
 describe('DEMO QA', () => {
   context('Grid tests', () => {
